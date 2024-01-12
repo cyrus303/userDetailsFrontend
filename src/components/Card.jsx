@@ -1,5 +1,5 @@
 import React from 'react';
-import './Card.css'; // Import the CSS file for styling
+import './card.css'; // Import the CSS file for styling
 
 const Card = ({data, deletePersonData}) => {
   const {name, description, linkedin, twitter, interests} = data;
