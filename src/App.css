@@ -1,0 +1,9 @@
+.card-container {
+  display: flex;
+  justify-content: center;
+  /* Adjust as needed: space-around, space-between, center, etc. */
+  align-items: center;
+  /* Adjust as needed: center, flex-start, flex-end, etc. */
+  flex-wrap: wrap;
+  /* Allows cards to wrap onto the next line if there isn't enough space */
+}
