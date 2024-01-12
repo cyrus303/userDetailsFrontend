@@ -48,7 +48,7 @@ const App = () => {
     try {
       await fetch(
         // 'http://localhost:3000/details/destroy'
-        'https://userdetailsbackend.onrender.com/details/destory',
+        'https://userdetailsbackend.onrender.com/details/destroy',
         {
           method: 'DELETE',
           headers: {
